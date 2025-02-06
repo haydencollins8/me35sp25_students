@@ -2,9 +2,9 @@ import RPi.GPIO as GPIO
 import time
 
 # Set pin values
-ena = 40
-in1 = 38
-in2 = 36
+ena = 22
+in1 = 24
+in2 = 26
 
 # Board and pin setup
 GPIO.setmode(GPIO.BOARD)
